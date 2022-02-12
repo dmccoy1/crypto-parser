@@ -1,7 +1,7 @@
 const { load, getHeaders } = require('csv-load-sync')
 const moment = require('moment')
 const fs = require('fs')
-const createCsvWriter = require('csv-writer').createObjectCsvWriter;
+const createCsvWriter = require('csv-writer').createObjectCsvWriter;//
 var filePath = process.argv[2]; // Inputs csv file location into an array from command line argument. Example: ['node','etl.js','path/to/file.csv']
 const expectedHeaders = ['SNo', 'Name', 'Symbol', 'Date', 'High', 'Low', 'Open', 'Close', 'Volume', 'Marketcap']
 function fileExists() {
