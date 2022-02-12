@@ -1,0 +1,28 @@
+{
+  "name": "crypto-parser",
+  "version": "1.0.0",
+  "description": "application to parse through crypto currency data.",
+  "main": "etl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmccoy1/crypto-parser.git"
+  },
+  "keywords": [
+    "crypto",
+    "etl"
+  ],
+  "author": "Darius M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmccoy1/crypto-parser/issues"
+  },
+  "homepage": "https://github.com/dmccoy1/crypto-parser#readme",
+  "dependencies": {
+    "csv-load-sync": "^2.3.1",
+    "csv-writer": "^1.6.0",
+    "moment": "^2.29.1"
+  }
+}
