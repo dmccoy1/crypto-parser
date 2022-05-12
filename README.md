@@ -7,10 +7,6 @@
 * [CSV writer](https://www.npmjs.com/package/csv-writer)
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -32,11 +28,10 @@ Make sure you have Node installed - [Follow this Guide](https://heynode.com/tuto
    ```sh
    node etl.js path/to/file.csv
    ```
-   Note the Application would only execute if the imported csv has the required headers[Example](https://github.com/dmccoy1/crypto-parser/blob/main/coin_Bitcoin.csv):
+   Note the Application would only execute if the imported csv has the required headers [example-csv](https://github.com/dmccoy1/crypto-parser/blob/main/coin_Bitcoin.csv):
    
 | Sno | Name | Symbol | Date | High | Low | Open | Close | Volume | Marketcap |
 |-----|------|--------|------|------|-----|------|-------|--------|-----------|
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
